@@ -3,7 +3,7 @@ Name:		fortune-mod-bofh-excuses
 Version:	1.0
 Release:	10
 License:	BSD
-Group:		Amusements/Games
+Group:		Games
 Source0:	%{name}.tgz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
