@@ -1,10 +1,13 @@
 Summary:	Collection of Bofh Excuses Fortunes
 Name:		fortune-mod-bofh-excuses
-Version:	1.0
-Release:	10
+Version:	1.1
+Release:	1
 License:	BSD
-Group:		Games
-Source0:	%{name}.tgz
+Group:		Applications/Games
+Group(de):	Applikationen/Spiele
+Group(pl):	Aplikacje/Gry
+Requires:	fortune-mod
+Source0:	http://sec.irq.org/sw/%{name}-%{version}.tgz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -25,14 +28,12 @@ poczuciem humoru mog± dodaæ fortune do plików .login u¿ytkowników tak,
 by ka¿dy otrzyma³ swoj± dawkê m±dro¶ci przy logowaniu.
 
 %prep
-install -d %{name}
-tar zxf %{SOURCE0} -C %{name}/
+%setup -q -n bofh
 
 %build
 
 %install
 rm -rf $RPM_BUILD_ROOT
-cd %{name}
 
 install -d $RPM_BUILD_ROOT%{_datadir}/games/fortunes
 install bofh-excuses* $RPM_BUILD_ROOT%{_datadir}/games/fortunes
