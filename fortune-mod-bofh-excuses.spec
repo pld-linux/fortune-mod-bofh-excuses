@@ -5,21 +5,6 @@ Version:	1.1
 Release:	2
 License:	BSD
 Group:		Applications/Games
-Group(cs):	Aplikace/Hry
-Group(da):	Programmer/Spil
-Group(de):	Applikationen/Spiele
-Group(es):	Aplicaciones/Juegos
-Group(fr):	Applications/Jeux
-Group(is):	Forrit/Leikir
-Group(it):	Applicazioni/Giochi
-Group(ja):	╔╒╔в╔Й╔╠║╪╔╥╔Г╔С/╔╡║╪╔Ю
-Group(no):	Applikasjoner/Spill
-Group(pl):	Aplikacje/Gry
-Group(pt):	AplicaГУes/Jogos
-Group(ru):	Приложения/Игры
-Group(sl):	Programi/Igre
-Group(sv):	TillДmpningar/Spel
-Group(uk):	Прикладн╕ Програми/╤гри
 Requires:	fortune-mod
 Source0:	http://sec.irq.org/sw/%{name}-%{version}.tgz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
