@@ -2,11 +2,24 @@ Summary:	Collection of Bofh Excuses Fortunes
 Summary(pl):	Zestaw fortunek z wymówkami administratorów (BOFH-ów)
 Name:		fortune-mod-bofh-excuses
 Version:	1.1
-Release:	1
+Release:	2
 License:	BSD
 Group:		Applications/Games
+Group(cs):	Aplikace/Hry
+Group(da):	Programmer/Spil
 Group(de):	Applikationen/Spiele
+Group(es):	Aplicaciones/Juegos
+Group(fr):	Applications/Jeux
+Group(is):	Forrit/Leikir
+Group(it):	Applicazioni/Giochi
+Group(ja):	¥¢¥×¥ê¥±¡¼¥·¥ç¥ó/¥²¡¼¥à
+Group(no):	Applikasjoner/Spill
 Group(pl):	Aplikacje/Gry
+Group(pt):	Aplicações/Jogos
+Group(ru):	ğÒÉÌÏÖÅÎÉÑ/éÇÒÙ
+Group(sl):	Programi/Igre
+Group(sv):	Tillämpningar/Spel
+Group(uk):	ğÒÉËÌÁÄÎ¦ ğÒÏÇÒÁÍÉ/¶ÇÒÉ
 Requires:	fortune-mod
 Source0:	http://sec.irq.org/sw/%{name}-%{version}.tgz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
