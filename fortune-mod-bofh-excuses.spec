@@ -17,9 +17,6 @@ program. Fun-loving system administrators can add fortune to users'
 .login files, so that the users get their dose of wisdom each time
 they log in.
 
-Install fortune if you want a program which will bestow these random
-bits o' wit.
-
 %description -l pl
 Fortune-mod zawiera wci±¿ popularny program fortune ("cytat dnia",
 "przepowiednia"). Masz ochotê na odrobinê m±dro¶ci przekazanej Ci
@@ -34,8 +31,8 @@ by ka¿dy otrzyma³ swoj± dawkê m±dro¶ci przy logowaniu.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-
 install -d $RPM_BUILD_ROOT%{_datadir}/games/fortunes
+
 install bofh-excuses* $RPM_BUILD_ROOT%{_datadir}/games/fortunes
 
 %clean
