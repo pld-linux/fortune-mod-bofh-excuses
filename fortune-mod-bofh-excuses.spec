@@ -8,6 +8,7 @@ Group:		Applications/Games
 BuildRequires:	fortune-mod
 Requires:	fortune-mod
 Source0:	http://sec.irq.org/sw/%{name}-%{version}.tgz
+# Source0-md5:	026b0ccf09187bc03a16140d6c800210
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
