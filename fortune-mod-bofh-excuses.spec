@@ -17,6 +17,13 @@ each time they log in.
 Install fortune if you want a program which will bestow these random
 bits o' wit.
 
+%description -l pl
+Fortune-mod zawiera wci±¿ popularny program fortune ("cytat dnia", 
+"przepowiednia"). Masz ochotê na odrobinê m±dro¶ci przekazanej Ci
+podczas logowania? Program fortune jest dla Ciebie. Administratorzy z poczuciem
+humoru mog± dodaæ fortune do plików .login u¿ytkowników tak, by ka¿dy
+otrzyma³ swoj± dawkê m±dro¶ci przy logowaniu.
+
 %prep
 install -d %{name}
 tar zxf %{SOURCE0} -C %{name}/
