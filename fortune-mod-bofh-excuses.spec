@@ -5,7 +5,7 @@ Release:	10
 Copyright:	BSD
 Group:		Amusements/Games
 Source0:	%{name}.tgz
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Fortune-mod contains the ever-popular fortune program. Want a little
