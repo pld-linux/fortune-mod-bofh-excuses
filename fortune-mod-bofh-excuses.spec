@@ -2,9 +2,10 @@ Summary:	Collection of Bofh Excuses Fortunes
 Summary(pl):	Zestaw fortunek z wymówkami administratorów (BOFH-ów)
 Name:		fortune-mod-bofh-excuses
 Version:	1.1
-Release:	3
+Release:	4
 License:	BSD
 Group:		Applications/Games
+BuildRequires:	fortune-mod
 Requires:	fortune-mod
 Source0:	http://sec.irq.org/sw/%{name}-%{version}.tgz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -25,6 +26,9 @@ by ka¿dy otrzyma³ swoj± dawkê m±dro¶ci przy logowaniu.
 
 %prep
 %setup -q -n bofh
+
+%build
+strfile bofh-excuses
 
 %install
 rm -rf $RPM_BUILD_ROOT
