@@ -1,5 +1,5 @@
 Summary:	Collection of Bofh Excuses Fortunes
-Summary(pl):	Zestaw fortunek z wymówkami administratorów (BOFH-ów)
+Summary(pl.UTF-8):   Zestaw fortunek z wymÃ³wkami administratorÃ³w (BOFH-Ã³w)
 Name:		fortune-mod-bofh-excuses
 Version:	1.1
 Release:	5
@@ -18,12 +18,12 @@ program. Fun-loving system administrators can add fortune to users'
 .login files, so that the users get their dose of wisdom each time
 they log in.
 
-%description -l pl
-Fortune-mod zawiera wci±¿ popularny program fortune ("cytat dnia",
-"przepowiednia"). Masz ochotê na odrobinê m±dro¶ci przekazanej Ci
+%description -l pl.UTF-8
+Fortune-mod zawiera wciÄ…Å¼ popularny program fortune ("cytat dnia",
+"przepowiednia"). Masz ochotÄ™ na odrobinÄ™ mÄ…droÅ›ci przekazanej Ci
 podczas logowania? Program fortune jest dla Ciebie. Administratorzy z
-poczuciem humoru mog± dodaæ fortune do plików .login u¿ytkowników tak,
-by ka¿dy otrzyma³ swoj± dawkê m±dro¶ci przy logowaniu.
+poczuciem humoru mogÄ… dodaÄ‡ fortune do plikÃ³w .login uÅ¼ytkownikÃ³w tak,
+by kaÅ¼dy otrzymaÅ‚ swojÄ… dawkÄ™ mÄ…droÅ›ci przy logowaniu.
 
 %prep
 %setup -q -n bofh
